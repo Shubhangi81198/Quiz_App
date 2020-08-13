@@ -1,0 +1,198 @@
+.{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+
+	font-family: "Arial";
+}
+.wrapper
+{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 50vw;
+	background-color:purple;
+}
+.Welcome_Text{
+
+
+	width: 400px;
+}
+.Welcome_Form input,
+.Welcome_Form button{
+
+	display: block;
+	width: 100%;
+	
+}
+.h1{
+
+
+
+	color:#341f97;
+	font-size: 15px; 
+}
+.Welcome_Form input
+{
+
+
+	margin-bottom:15px;
+	background: transparent;
+	border:none;
+	border-bottom: 2px solid white;
+	color: :#fff;
+	font-size: 30px;
+	text-align:center;
+
+}
+.Welcome_Form button
+{
+
+	padding: 20px 0;
+	font-size: 22px;
+	background color:#fff;
+	color: #341f97;
+	border-radius: 100px;
+
+}
+.Welcome_Form button:hover{
+	transform: translateY(-5px);
+	cursor: pointer;
+
+
+}
+.Welcome_Form input:focus,
+.Welcome_Form button:focus
+{
+	outline: none;
+}
+.quiz
+{
+	border-radius: 3px;
+	display: grid;
+	grid-template-rows: 60px auto;
+	width:800px;
+	height: 500px;
+	background-color: whitesmoke;
+}
+.quiz_header
+{
+	display: flex;
+	justify-content: space-between;
+	background-color:white;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	box-shadow: 0px 2px 5px 1px rgba(0,0,0, 0.3);
+	z-index:1;
+
+
+
+
+
+
+	
+
+}
+.quiz_body
+{
+	background-color:#ecf0f1;
+	padding:30px 
+
+
+}
+.quiz_user
+{
+
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+}
+.quiz_timer
+{
+	display: flex;
+	align-items: center;
+	background-color:purple;
+	color:white;
+	padding:0 30px;
+
+}
+.option-group{
+
+	list-style-type: none;
+	margin: 30px 0;
+}
+.option{
+	background-color: white;
+	width: 300px;
+	padding:15px 20px;
+	margin-bottom: 15px;
+	border-radius: 100px;
+	border :2px solid transparent;
+
+
+}
+.option:hover
+{
+	cursor:pointer; 
+	border:2px solid purple;
+	color:purple;
+
+
+}
+.btn-prev
+{
+	background-color:purple;
+	color:white;
+	padding :15px 35px;
+	border:none;
+	border-radius: 27px;
+	transition: 0.4s all;
+}
+.btn-prev:hover{
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+	cursor: pointer;
+	background-color: white;
+	color:purple;
+
+}
+.btn-nxt
+{
+
+	background-color:purple;
+	color:white;
+	padding :15px 35px;
+	border:none;
+	border-radius: 27px;
+	transition: 0.4s all;
+
+
+}
+.btn-nxt:hover{
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+	cursor: pointer;
+	background-color: white;
+	color:purple;
+
+}
+.active
+{
+	background-color: purple;
+	color: white !important;
+}
+.award_icon
+{
+	font-size: 300px;
+	color: white;
+}
+.username,
+.userpoints,
+.usertime
+{
+color: white;
+text-align: center;
+margin-top:15px;
+} 
